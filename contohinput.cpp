@@ -28,4 +28,18 @@ class Barang{
         cout <<"================================================"<< endl;
 
     }
+};
+
+int main(){
+    Barang elektronik;
+    Barang nonelektronik;
+
+    elektronik.inputData();
+    elektronik.tampilSpek();
+
+    cout << endl;
+    cout << endl;
+
+    nonelektronik.inputData();
+    nonelektronik.tampilSpek();
 }

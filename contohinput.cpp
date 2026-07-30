@@ -7,4 +7,16 @@ class Barang{
         int jumlah;
         string kategori;
         string tahunProduksi;
+
+    void inputData(){
+        cout << "================= Input Data ================="<< endl;
+        cout << "Masukkan Nama Barang : ";
+        cin >> nama;
+        cout << "Masukkan Jumlah Barang : ";
+        cin >> jumlah;
+        cout << "Masukkan Kategori Barang': ";
+        cin >> kategori;
+        cout << "Masukkan Tanggal Produksi Barang : ";
+        cin >> tahunProduksi;
+    }
 }

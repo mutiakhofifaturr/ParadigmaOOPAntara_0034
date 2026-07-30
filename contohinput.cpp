@@ -19,4 +19,13 @@ class Barang{
         cout << "Masukkan Tanggal Produksi Barang : ";
         cin >> tahunProduksi;
     }
+    void tampilSpek(){
+        cout << " ================ Tampil Data ================="<< endl;
+        cout << "Nama Barang : " << nama << endl;
+        cout << "Jumlah Barang : " << jumlah << endl;
+        cout << "Jkategori Barang : " << kategori << endl;
+        cout << "Tanggal Produksi : " << tahunProduksi << endl;
+        cout <<"================================================"<< endl;
+
+    }
 }
